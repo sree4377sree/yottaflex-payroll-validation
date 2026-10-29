@@ -1,0 +1,26 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run payroll starter pipeline",
+			"type": "shell",
+			"command": "python main.py --scale starter",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Run payroll validator unit tests",
+			"type": "shell",
+			"command": "python -m unittest discover tests",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Run starter payroll command",
+			"type": "shell",
+			"command": "python main.py --scale starter",
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}

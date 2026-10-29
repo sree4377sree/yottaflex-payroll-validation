@@ -1,0 +1,42 @@
+[
+  {
+    "anomaly_id": "GT-UNAPPROVED-TIME-EMP-000001-2026-01-01",
+    "employee_id": "EMP-000001",
+    "pay_period_id": "PP-2026-01",
+    "issue_type": "UNAPPROVED_TIME_EXPORTED",
+    "target_entity": "TimeEntry",
+    "target_id": "TIME-EMP-000001-2026-01-01",
+    "expected_rule": "RULE-003",
+    "description": "TimeEntry TIME-EMP-000001-2026-01-01 has status SUBMITTED (unapproved)."
+  },
+  {
+    "anomaly_id": "GT-UNAPPROVED-TIME-EMP-000001-2026-01-29",
+    "employee_id": "EMP-000001",
+    "pay_period_id": "PP-2026-01",
+    "issue_type": "UNAPPROVED_TIME_EXPORTED",
+    "target_entity": "TimeEntry",
+    "target_id": "TIME-EMP-000001-2026-01-29",
+    "expected_rule": "RULE-003",
+    "description": "TimeEntry TIME-EMP-000001-2026-01-29 has status SUBMITTED (unapproved)."
+  },
+  {
+    "anomaly_id": "GT-OVERTIME-EMP-000007-PP-2026-01",
+    "employee_id": "EMP-000007",
+    "pay_period_id": "PP-2026-01",
+    "issue_type": "HOURS_EXCEED_MAXIMUM",
+    "target_entity": "PayrollInput",
+    "target_id": "PIN-EMP-000007-PP-2026-01",
+    "expected_rule": "RULE-001",
+    "description": "Total period hours (396.0h) exceeds maximum allowed threshold of 200.0h."
+  },
+  {
+    "anomaly_id": "GT-DUPALW-ALW-EMP-000034-PP-2026-01-02",
+    "employee_id": "EMP-000034",
+    "pay_period_id": "PP-2026-01",
+    "issue_type": "DUPLICATE_ALLOWANCE",
+    "target_entity": "Allowance",
+    "target_id": "ALW-EMP-000034-PP-2026-01-02",
+    "expected_rule": "RULE-002",
+    "description": "Duplicate HOUSING allowance detected for EMP-000034 in period PP-2026-01."
+  }
+]
